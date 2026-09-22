@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Şifre Kasası — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root {
+    --bg: #0A192F;
+    --surface: #112240;
+    --border: #1E3A5F;
+    --text: #E2E8F0;
+    --muted: #94A3B8;
+    --accent: #3B82F6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Plus Jakarta Sans", Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  header { margin-bottom: 32px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; }
+  .subtitle { color: var(--muted); font-size: 0.95rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.2em; border-top: 1px solid var(--border); padding-top: 1.2em; }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.3em; }
+  a { color: var(--accent); }
+  .lang-block + .lang-block { margin-top: 56px; border-top: 2px solid var(--border); padding-top: 40px; }
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #4EDEA3;
+    background: rgba(16,185,129,0.12);
+    border: 1px solid rgba(16,185,129,0.3);
+    border-radius: 999px;
+    padding: 4px 12px;
+    margin-bottom: 18px;
+  }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="lang-block">
+  <header>
+    <span class="badge">TÜRKÇE</span>
+    <h1>Şifre Kasası — Gizlilik Politikası</h1>
+    <p class="subtitle">Yürürlük tarihi: 22 Eylül 2026</p>
+  </header>
+
+  <p><strong>Şifre Kasası</strong> ("Uygulama"), Kaan Karalı ("Geliştirici") tarafından geliştirilen, kişisel şifrelerin cihaz üzerinde saklanmasını sağlayan bir mobil uygulamadır. Bu belge, Uygulamanın verilerinizi nasıl ele aldığını açıklar.</p>
+
+  <h2>Özet</h2>
+  <ul>
+    <li>Uygulama <strong>internet bağlantısı kullanmaz</strong>; hiçbir sunucuya veri göndermez.</li>
+    <li>Girdiğiniz tüm şifreler ve ilgili bilgiler yalnızca <strong>kendi cihazınızda</strong>, AES-256 ile şifrelenmiş olarak saklanır.</li>
+    <li>Geliştirici, kullanıcıların şifrelerine veya diğer verilerine <strong>hiçbir şekilde erişemez</strong>; bu veriler Geliştiriciye veya üçüncü taraflara iletilmez.</li>
+    <li>Uygulama reklam göstermez, analiz/izleme (analytics/tracking) araçları kullanmaz, kullanıcı hesabı oluşturmaz.</li>
+  </ul>
+
+  <h2>Toplanan ve İşlenen Veriler</h2>
+  <p>Uygulama, kaydettiğiniz kayıt başlığı, kullanıcı adı, şifre, kategori ve not gibi bilgileri yalnızca cihazınızın dahili depolama alanında, AES-256-GCM algoritmasıyla şifrelenmiş bir dosyada tutar. Bu veriler:</p>
+  <ul>
+    <li>Hiçbir sunucuya, buluta veya üçüncü tarafa gönderilmez,</li>
+    <li>Geliştirici dahil hiç kimse tarafından uzaktan görüntülenemez,</li>
+    <li>Yalnızca sizin belirlediğiniz PIN veya cihazınızın biyometrik doğrulaması (parmak izi/yüz tanıma) ile açılabilir.</li>
+  </ul>
+
+  <h2>Biyometrik Veriler</h2>
+  <p>Uygulama, kasayı açmak için işletim sisteminin sunduğu biyometrik doğrulama (parmak izi, yüz tanıma vb.) özelliğini kullanabilir. Bu işlem tamamen cihazınızın işletim sistemi tarafından, cihaz üzerinde gerçekleştirilir; parmak izi veya yüz verisi Uygulama tarafından hiçbir zaman okunmaz, saklanmaz veya iletilmez. Uygulama yalnızca işletim sisteminden "doğrulama başarılı/başarısız" sonucunu alır.</p>
+
+  <h2>İzinler</h2>
+  <p>Uygulama yalnızca biyometrik doğrulama için gerekli olan <code>USE_BIOMETRIC</code> iznini talep eder. İnternet erişimi, konum, kişiler, kamera, mikrofon gibi başka hiçbir izin istenmez veya kullanılmaz.</p>
+
+  <h2>Şifrelerin Dışa/İçe Aktarılması</h2>
+  <p>Kullanıcı isteği üzerine Uygulama, kayıtları vCard (.vcf) formatında dışa aktarabilir. Bu işlem sırasında oluşturulan dosya <strong>şifrelenmemiş</strong> olur ve kullanıcı, işletim sisteminin paylaşım ekranı üzerinden dosyayı istediği uygulamaya (dosya yöneticisi, e-posta vb.) kendi kontrolünde gönderir. Bu aktarım, Geliştirici veya Uygulama tarafından izlenmez ya da kaydedilmez; tamamen kullanıcının kendi cihaz ve tercihleri dahilinde gerçekleşir.</p>
+
+  <h2>Çocukların Gizliliği</h2>
+  <p>Uygulama genel kullanıcı kitlesine yöneliktir ve bilerek 13 yaş altı çocuklardan veri toplamaz; zaten Uygulama hiçbir veriyi cihaz dışına toplamaz veya iletmez.</p>
+
+  <h2>Verilerin Silinmesi</h2>
+  <p>Uygulamayı cihazınızdan kaldırdığınızda veya uygulama içinden "Kasayı Sıfırla" işlemini kullandığınızda, şifrelenmiş kasa dosyası ve ilgili anahtarlar cihazınızdan kalıcı olarak silinir. Bu veriler hiçbir yerde yedeklenmediğinden geri getirilemez.</p>
+
+  <h2>Politika Değişiklikleri</h2>
+  <p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler bu sayfada yayımlanacak ve yürürlük tarihi güncellenecektir.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></p>
+</div>
+
+<div class="lang-block">
+  <header>
+    <span class="badge">ENGLISH</span>
+    <h1>Şifre Kasası — Privacy Policy</h1>
+    <p class="subtitle">Effective date: September 22, 2026</p>
+  </header>
+
+  <p><strong>Şifre Kasası</strong> ("Password Vault", the "App") is a mobile application developed by Kaan Karalı (the "Developer") that lets you store personal passwords on your own device. This document explains how the App handles your data.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>The App <strong>does not use an internet connection</strong> and does not send any data to a server.</li>
+    <li>All passwords and related information you enter are stored <strong>only on your own device</strong>, encrypted with AES-256.</li>
+    <li>The Developer has <strong>no access whatsoever</strong> to your passwords or other data; nothing is transmitted to the Developer or any third party.</li>
+    <li>The App shows no ads, uses no analytics/tracking tools, and does not require creating an account.</li>
+  </ul>
+
+  <h2>Data Collected and Processed</h2>
+  <p>The App stores the record title, username, password, category, and note you enter only in an AES-256-GCM encrypted file within your device's local storage. This data:</p>
+  <ul>
+    <li>Is never sent to any server, cloud service, or third party,</li>
+    <li>Cannot be viewed remotely by anyone, including the Developer,</li>
+    <li>Can only be unlocked with the PIN you set or your device's biometric authentication (fingerprint/face recognition).</li>
+  </ul>
+
+  <h2>Biometric Data</h2>
+  <p>The App may use the operating system's built-in biometric authentication (fingerprint, face recognition, etc.) to unlock the vault. This process is performed entirely by your device's operating system, on-device; fingerprint or face data is never read, stored, or transmitted by the App. The App only receives a "verification succeeded/failed" result from the operating system.</p>
+
+  <h2>Permissions</h2>
+  <p>The App requests only the <code>USE_BIOMETRIC</code> permission needed for biometric authentication. No other permission — internet access, location, contacts, camera, microphone, etc. — is requested or used.</p>
+
+  <h2>Exporting/Importing Passwords</h2>
+  <p>At the user's request, the App can export records in vCard (.vcf) format. The resulting file is <strong>unencrypted</strong>, and the user shares it, via the operating system's own share sheet, to an app of their choice (file manager, email, etc.) under their own control. This transfer is not monitored or logged by the Developer or the App; it happens entirely within the user's own device and choices.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>The App is intended for a general audience and does not knowingly collect data from children under 13; in any case, the App does not collect or transmit any data off the device at all.</p>
+
+  <h2>Data Deletion</h2>
+  <p>When you uninstall the App, or use the in-app "Reset Vault" action, the encrypted vault file and related keys are permanently deleted from your device. Since this data is never backed up anywhere, it cannot be recovered afterward.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>This privacy policy may be updated from time to time. Material changes will be posted on this page along with an updated effective date.</p>
+
+  <h2>Contact</h2>
+  <p>For questions, contact: <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></p>
+</div>
+
+<footer>Şifre Kasası &middot; com.kaankarali.sifrekasasi</footer>
+</div>
+</body>
+</html>
