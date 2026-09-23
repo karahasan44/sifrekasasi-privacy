@@ -53,7 +53,7 @@
   <header>
     <span class="badge">TÜRKÇE</span>
     <h1>Şifre Kasası — Gizlilik Politikası</h1>
-    <p class="subtitle">Yürürlük tarihi: 22 Eylül 2026</p>
+    <p class="subtitle">Yürürlük tarihi: 23 Eylül 2026</p>
   </header>
 
   <p><strong>Şifre Kasası</strong> ("Uygulama"), Kaan Karalı ("Geliştirici") tarafından geliştirilen, kişisel şifrelerin cihaz üzerinde saklanmasını sağlayan bir mobil uygulamadır. Bu belge, Uygulamanın verilerinizi nasıl ele aldığını açıklar.</p>
@@ -73,12 +73,13 @@
     <li>Geliştirici dahil hiç kimse tarafından uzaktan görüntülenemez,</li>
     <li>Yalnızca sizin belirlediğiniz PIN veya cihazınızın biyometrik doğrulaması (parmak izi/yüz tanıma) ile açılabilir.</li>
   </ul>
+  <p>İsteğe bağlı olarak belirlediğiniz güvenlik sorusu cihazın güvenli deposunda saklanır; cevabı ise PIN'iniz gibi düz metin olarak değil, yalnızca geri döndürülemez bir özet (PBKDF2) olarak tutulur. Uygulama verileri Android yedeklemesine veya cihazdan cihaza aktarıma dahil edilmez.</p>
 
   <h2>Biyometrik Veriler</h2>
   <p>Uygulama, kasayı açmak için işletim sisteminin sunduğu biyometrik doğrulama (parmak izi, yüz tanıma vb.) özelliğini kullanabilir. Bu işlem tamamen cihazınızın işletim sistemi tarafından, cihaz üzerinde gerçekleştirilir; parmak izi veya yüz verisi Uygulama tarafından hiçbir zaman okunmaz, saklanmaz veya iletilmez. Uygulama yalnızca işletim sisteminden "doğrulama başarılı/başarısız" sonucunu alır.</p>
 
   <h2>İzinler</h2>
-  <p>Uygulama yalnızca biyometrik doğrulama için gerekli olan <code>USE_BIOMETRIC</code> iznini talep eder. İnternet erişimi, konum, kişiler, kamera, mikrofon gibi başka hiçbir izin istenmez veya kullanılmaz.</p>
+  <p>Uygulama yalnızca biyometrik doğrulama için gerekli olan <code>USE_BIOMETRIC</code> iznini ve eski Android sürümlerinde (Android 8.1 ve öncesi) aynı amaçla kullanılan <code>USE_FINGERPRINT</code> iznini talep eder. İnternet erişimi, konum, kişiler, kamera, mikrofon gibi başka hiçbir izin istenmez veya kullanılmaz.</p>
 
   <h2>Şifrelerin Dışa/İçe Aktarılması</h2>
   <p>Kullanıcı isteği üzerine Uygulama, kayıtları vCard (.vcf) formatında dışa aktarabilir. Bu işlem sırasında oluşturulan dosya <strong>şifrelenmemiş</strong> olur ve kullanıcı, işletim sisteminin paylaşım ekranı üzerinden dosyayı istediği uygulamaya (dosya yöneticisi, e-posta vb.) kendi kontrolünde gönderir. Bu aktarım, Geliştirici veya Uygulama tarafından izlenmez ya da kaydedilmez; tamamen kullanıcının kendi cihaz ve tercihleri dahilinde gerçekleşir.</p>
@@ -100,7 +101,7 @@
   <header>
     <span class="badge">ENGLISH</span>
     <h1>Şifre Kasası — Privacy Policy</h1>
-    <p class="subtitle">Effective date: September 22, 2026</p>
+    <p class="subtitle">Effective date: September 23, 2026</p>
   </header>
 
   <p><strong>Şifre Kasası</strong> ("Password Vault", the "App") is a mobile application developed by Kaan Karalı (the "Developer") that lets you store personal passwords on your own device. This document explains how the App handles your data.</p>
@@ -120,12 +121,13 @@
     <li>Cannot be viewed remotely by anyone, including the Developer,</li>
     <li>Can only be unlocked with the PIN you set or your device's biometric authentication (fingerprint/face recognition).</li>
   </ul>
+  <p>The optional security question you set is kept in the device's secure storage; its answer, like your PIN, is never stored in plain text but only as an irreversible hash (PBKDF2). App data is excluded from Android backups and device-to-device transfers.</p>
 
   <h2>Biometric Data</h2>
   <p>The App may use the operating system's built-in biometric authentication (fingerprint, face recognition, etc.) to unlock the vault. This process is performed entirely by your device's operating system, on-device; fingerprint or face data is never read, stored, or transmitted by the App. The App only receives a "verification succeeded/failed" result from the operating system.</p>
 
   <h2>Permissions</h2>
-  <p>The App requests only the <code>USE_BIOMETRIC</code> permission needed for biometric authentication. No other permission — internet access, location, contacts, camera, microphone, etc. — is requested or used.</p>
+  <p>The App requests only the <code>USE_BIOMETRIC</code> permission needed for biometric authentication, plus <code>USE_FINGERPRINT</code>, which serves the same purpose on older Android versions (Android 8.1 and earlier). No other permission — internet access, location, contacts, camera, microphone, etc. — is requested or used.</p>
 
   <h2>Exporting/Importing Passwords</h2>
   <p>At the user's request, the App can export records in vCard (.vcf) format. The resulting file is <strong>unencrypted</strong>, and the user shares it, via the operating system's own share sheet, to an app of their choice (file manager, email, etc.) under their own control. This transfer is not monitored or logged by the Developer or the App; it happens entirely within the user's own device and choices.</p>
